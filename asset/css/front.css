@@ -1,0 +1,19 @@
+.up:hover {
+    font-size: larger;
+    transform: scale(1.1);
+    transform: rotate(5deg);
+}
+
+.raise:hover,
+.raise:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+.footer-logo {
+    height: 35px;
+}
+
+.footer-logo:hover {
+    height: 45px;
+}
