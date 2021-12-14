@@ -1,3 +1,7 @@
+.up,
+.logo-up {
+    transition: all 0.15s ease-in-out;
+}
 .up:hover {
     font-size: larger;
     transform: scale(1.1);
@@ -16,4 +20,34 @@
 
 .footer-logo:hover {
     height: 45px;
+}
+.darken {
+    filter: brightness(95%);
+}
+
+.hover-float {
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 5px 0 rgb(0 0 0 / 20%);
+    transition: all 0.15s ease-in-out;
+    cursor: pointer;
+    border-radius: 1.25rem;
+}
+
+.hover-float:hover {
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 12%), 0 1px 15px 0 rgb(0 0 0 / 20%);
+    transform: scale(1.2) !important;
+    z-index: 10;
+    border-radius: 1.25rem;
+}
+
+.hover-float:active {
+    transform: scale(0.9) !important;
+    z-index: 10;
+}
+
+.text-decoration-none:hover {
+    text-decoration: none;
+}
+
+.cursor-disabled  {
+    cursor: not-allowed;
 }
