@@ -64,3 +64,7 @@ html {
     bottom: 20px;
     left: 20px;
 }
+
+html {
+    overflow-x: hidden;
+}
